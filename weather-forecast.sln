@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather-forecast-api", "weather-forecast-api\weather-forecast-api.csproj", "{D7D5A3B1-5927-4871-B270-6C8DF035B07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weather-forecast-api", "weather-forecast-api\weather-forecast-api.csproj", "{D7D5A3B1-5927-4871-B270-6C8DF035B07E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather-forecast-api-test", "weather-forecast-api-test\weather-forecast-api-test.csproj", "{FF969050-CB08-447A-AC66-BEDB21A5EC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weather-forecast-api-test", "weather-forecast-api-test\weather-forecast-api-test.csproj", "{FF969050-CB08-447A-AC66-BEDB21A5EC76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{874BA391-8C33-4FF0-BBAE-2D1D12D7024A}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D7D5A3B1-5927-4871-B270-6C8DF035B07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +46,11 @@ Global
 		{FF969050-CB08-447A-AC66-BEDB21A5EC76}.Release|x64.Build.0 = Release|Any CPU
 		{FF969050-CB08-447A-AC66-BEDB21A5EC76}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF969050-CB08-447A-AC66-BEDB21A5EC76}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBE9B506-629B-4E60-91E3-D8B8B6CC3ABF}
 	EndGlobalSection
 EndGlobal
