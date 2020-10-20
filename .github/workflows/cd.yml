@@ -1,7 +1,7 @@
-name: CI
+name: CD
 
 on:
-  pull_request:
+  push:
     branches:
     - main
 
@@ -27,3 +27,8 @@ jobs:
           run: dotnet restore
         - name: Test with dotnet
           run: dotnet test --no-restore --verbosity normal
+    deploy:
+         needs: [build, test]
+         runs-on: ubuntu-latest
+         steps:
+         - run: echo "Deploy it ! 🚀"
